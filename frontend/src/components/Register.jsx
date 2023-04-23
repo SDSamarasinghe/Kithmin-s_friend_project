@@ -29,7 +29,7 @@ const StoreAddProductForm = () => {
       DateOfBirth,
       RegisteredDate,
       Department,
-      Image: img,
+      Image,
 
     };
 
@@ -50,7 +50,7 @@ const StoreAddProductForm = () => {
     }
 //must check endpoint
     axios
-      .post("http://florage-api.pasinduprabhashitha.com/api/inventory/products", product)
+      .post("http://localhost:8070/registers/add", product)
       .then((response) => {
         swal({
           title: "User Added Successfully!",

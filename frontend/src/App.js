@@ -8,6 +8,8 @@ import "./App.css";
 import Navigator from "./components/Navigator/Navigator";
 import Footer from "./components/Footer";
 
+import Register from "./components/Register"
+
 
 //User imports
 
@@ -22,9 +24,13 @@ function App() {
   return (
     <BrowserRouter>
       <Navigator />
+      <Routes>
    
-   
-
+      <Route
+          path="/Register"
+          element={<Register/>}
+        />
+</Routes>
       <Footer />
     </BrowserRouter>
   );

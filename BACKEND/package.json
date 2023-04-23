@@ -1,0 +1,23 @@
+{
+"name": "backend",
+  "version": "1.0.0",
+  "description": "Employee Management System ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Heshan J.A.C.I",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0",
+    "schemastore": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+
+ }

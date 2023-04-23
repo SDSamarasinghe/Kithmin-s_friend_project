@@ -48,6 +48,13 @@ const registerSchema = new Schema({
     required: true,
   },
 
+  Image: {
+    type: String,
+    required: true,
+  },
+
+  
+
 });
 
 const register = mongoose.model("register", registerSchema);
